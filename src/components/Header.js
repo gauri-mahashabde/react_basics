@@ -1,13 +1,13 @@
 import React from "react";
 
 const Header = () => {
-    return(
+    return (
         <div className="ui fixed menu">
             <div className="ui conatiner center">
                 <h2>Contact Manager</h2>
             </div>
         </div>
-        
+
     );
 }
 

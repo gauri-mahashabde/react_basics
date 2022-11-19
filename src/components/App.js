@@ -5,17 +5,16 @@ import Addcontacts from './Addcontacts';
 
 function App() {
   return (
-    
+
     <div className="ui conatiner">
-    <Header/>
-    <Addcontacts/>
+      <Header />
+      <Addcontacts />
     </div>
 
-);
-    }
+  );
+}
 
 export default App;
 
-    
-    
- 
+
+
