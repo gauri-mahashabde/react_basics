@@ -3,7 +3,7 @@ import React from "react";
 const Addcontacts = () => {
     return (
         <div className="ui main">
-            <h2>Add Contacts</h2>
+            <h2>Add Contacts</h2>   
             <form className="ui form">
                 <div className="field">
                     <label>Name</label>
