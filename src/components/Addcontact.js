@@ -9,16 +9,18 @@ function Addcontact() {
         <div className="form">
           <label>Name</label>
           <input type="text" 
-          name="name" 
+          name="name"
+          className="input" 
           placeholder="Name"></input>
         </div>
         <div className="form">
           <label>Email</label>
           <input type="email" 
           name="name" 
+          className="input" 
           placeholder="Email"></input>
         </div>
-        <button className="ui button blue">ADD</button>
+        <button className="button">ADD</button>
       </form>
     </div>
   );
