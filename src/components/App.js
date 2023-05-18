@@ -1,14 +1,20 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-import Addcontacts from './Addcontacts';
+import Addcontact from './Addcontact';
+import Contactcard from './Contactcard';
+import Contactlist from './Contactlist';
 
 function App() {
   return (
 
-    <div className="ui conatiner">
-      <Header />
-      <Addcontacts />
+    <div>
+      <Header/>
+      <Addcontact/>
+      <Contactlist/>
+      <Contactcard/>
+     
+     
     </div>
 
   );
